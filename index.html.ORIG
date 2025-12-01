@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+
+  <title>StartPage</title>
+</head>
+<body>
+  <main id="cardContainer">
+
+    <a class="card" href="http://journal/memory.php" tabindex="0" target="_blank">
+      <i class="ri-book-3-fill card__icon"></i>
+      <p class="card__name">Journal</p>
+    </a>
+
+    <a class="card" href="https://www.perplexity.ai" tabindex="0" target="_blank">
+      <img src="icons/perplexity1.png"
+           alt="Perplexity"
+           class="card__icon">
+      <p class="card__name">Perplexity</p>
+    </a>
+
+    <a class="card" href="https://my.octopusgroup.com.au/surveys" tabindex="0" target="_blank">
+      <img src="icons/octopus.png"
+           alt="Octopus"
+           class="card__icon">
+      <p class="card__name">Octopus</p>
+    </a>
+
+    <a class="card" href="https://account.pureprofile.com/?redirect=https%3A%2F%2Fmy.pureprofile.com%2Ffeed&referrer=https%3A%2F%2Fmy.pureprofile.com%2Ffeed" tabindex="0" target="_blank">
+      <img src="icons/pp.png"
+           alt="PureProfile"
+           class="card__icon">
+      <p class="card__name">Pureprofile</p>
+    </a>
+
+    <a class="card" href="https://www.notion.so/Useful-ag-Silver-Searcher-Commands-2a9e7052c3a18064a35bc2f9eb6a6605" tabindex="0" target="_blank">
+      <img src="icons/notion.png"
+           alt="Notion"
+           class="card__icon">
+      <p class="card__name">Notion</p>
+    </a>
+  
+
+    <a class="card" href="https://calendar.google.com/calendar/u/0/r" tabindex="0" target="_blank">
+      <img src="icons/Google-Calendar--Streamline-Svg-Logos.png"
+           alt="Google Calendar"
+           class="card__icon">
+      <p class="card__name">Calendar</p>
+    </a>
+
+    <a class="card" href="https://photos.google.com" tabindex="0" target="_blank">
+      <img src="icons/Google-Photos--Streamline-Svg-Logos.png"
+           alt="Google Photos"
+           class="card__icon">
+      <p class="card__name">Photos</p>
+    </a>
+
+    <a class="card" href="https://www.google.com" tabindex="0" target="_blank">
+      <img src="icons/Google-Icon--Streamline-Svg-Logos.png"
+           alt="Google Search"
+           class="card__icon">
+      <p class="card__name">Search</p>
+    </a>
+
+    <a class="card" href="https://aistudio.google.com/live" tabindex="0" target="_blank">
+      <img src="icons/gais.png"
+           alt="Google AI Studio"
+           class="card__icon">
+      <p class="card__name">AI Studio</p>
+    </a>
+
+    <a class="card" href="https://script.google.com/home/projects/1YJYrk9uuy2V4HqEjwJtWInFIHmAeq0B4H_HXmx_B7NVajLri9l54ogbQ/edit?pli=1" tabindex="0" target="_blank">
+      <img src="icons/gas.png"
+           alt="Google App Script"
+           class="card__icon">
+      <p class="card__name">Google App (archive email)</p>
+    </a>
+
+    <a class="card" href="https://www.google.com/interests/saved/list/allsaves?q=All+saved+items&sa=X&ved=2ahUKEwim7dW6yfSLAxXSTmwGHTU7ClEQ5oAKegQIAhAC" tabindex="0" target="_blank">
+      <img src="icons/heart.png"
+           alt="Google Saved Items"
+           class="card__icon">
+      <p class="card__name">Saved</p>
+    </a>
+
+    <a class="card" href="https://www.google.com/interests/liked" tabindex="0" target="_blank">
+      <i class="ri-heart-3-fill card__icon"></i>
+      <p class="card__name">Liked</p>
+    </a>
+
+    <a class="card" href="https://www.privacyguides.org/en/vpn" tabindex="0" target="_blank">
+      <i class="ri-shield-keyhole-fill card__icon"></i>
+      <p class="card__name">Privacy VPN Guides</p>
+    </a>
+
+    <a class="card" href="https://forums.whirlpool.net.au/forum/?action=popular_views" tabindex="0" target="_blank">
+      <i class="ri-chat-3-fill card__icon"></i>
+      <p class="card__name">Whirlpool Popular</p>
+    </a>
+
+    <a class="card" href="https://192.168.68.76:32400/web/index.html#!" tabindex="0" target="_blank">
+      <img src="icons/plex.png"
+           alt="Plex"
+           class="card__icon">
+      <p class="card__name">Plex</p>
+    </a>
+
+    <a class="card" href="http://192.168.68.83:1880/#flow/e3a2a6524145c7fc" tabindex="0" target="_blank">
+      <img src="icons/nr.png"
+           alt="NodeRed"
+           class="card__icon">
+      <p class="card__name">Node-RED</p>
+    </a>
+
+    <a class="card" href="http://192.168.68.97" tabindex="0" target="_blank">
+      <i class="ri-temp-cold-line card__icon"></i>
+      <p class="card__name">DHT22 Outside</p>
+    </a>
+
+    <a class="card" href="http://192.168.68.88" tabindex="0" target="_blank">
+      <i class="ri-temp-hot-line card__icon"></i>
+      <p class="card__name">BME280 Inside</p>
+    </a>
+
+    <a class="card" href="https://github.com/oziau?tab=repositories" tabindex="0" target="_blank">
+      <i class="ri-github-fill card__icon"></i>
+      <p class="card__name">Your Repos</p>
+    </a>
+
+    <a class="card" href="https://test-ipv6.com" tabindex="0" target="_blank">
+      <i class="ri-global-line card__icon"></i>
+      <p class="card__name">Test IPv6</p>
+    </a>
+
+    <a class="card" href="https://login.linode.com/login" tabindex="0" target="_blank">
+      <i class="ri-cloud-fill card__icon"></i>
+      <p class="card__name">Linode</p>
+    </a>
+
+    <a class="card" href="https://x.com/oziOau/following" tabindex="0" target="_blank">
+      <img src="icons/x.png"
+           alt="X"
+           class="card__icon">
+      <p class="card__name">X Following</p>
+    </a>
+
+    <a class="card" href="https://keep.google.com/u/0/#home" tabindex="0" target="_blank">
+      <i class="ri-sticky-note-fill card__icon"></i>
+      <p class="card__name">Google Keep</p>
+    </a>
+
+    <a class="card" href="https://onedrive.live.com/?view=0" tabindex="0" target="_blank">
+      <i class="ri-cloud-line card__icon"></i>
+      <p class="card__name">OneDrive</p>
+    </a>
+
+    <a class="card" href="https://www.youtube.com" tabindex="0" target="_blank">
+      <img src="icons/Youtube-Icon--Streamline-Svg-Logos.png"
+           alt="YouTube"
+           class="card__icon">
+      <p class="card__name">YouTube</p>
+    </a>
+
+    <a class="card" href="https://www.youtube.com/feed/playlists" tabindex="0" target="_blank">
+      <i class="ri-play-list-fill card__icon"></i>
+      <p class="card__name">YT Playlists</p>
+    </a>
+
+    <a class="card" href="https://signin.ebay.com.au" tabindex="0" target="_blank">
+      <img src="icons/ebay.png"
+           alt="eBay AU"
+           class="card__icon">
+      <p class="card__name">eBay AU</p>
+    </a>
+
+    <a class="card" href="https://my.arlo.com/#/login" tabindex="0" target="_blank">
+      <img src="icons/arlo.png"
+           alt="Arlo"
+           class="card__icon">
+      <p class="card__name">Arlo</p>
+    </a>
+
+    <a class="card" href="https://www.gumtree.com.au/t-login-form.html" tabindex="0" target="_blank">
+      <i class="ri-store-2-fill card__icon"></i>
+      <p class="card__name">Gumtree</p>
+    </a>
+
+    <a class="card" href="https://my.surfshark.com/auth/login" tabindex="0" target="_blank">
+      <i class="ri-shield-check-fill card__icon"></i>
+      <p class="card__name">Surfshark</p>
+    </a>
+
+    <a class="card" href="https://lemmy.world/communities" tabindex="0" target="_blank">
+      <i class="ri-community-fill card__icon"></i>
+      <p class="card__name">Lemmy.World</p>
+    </a>
+
+    <a class="card" href="https://mega.nz/login" tabindex="0" target="_blank">
+      <i class="ri-folder-shield-2-fill card__icon"></i>
+      <p class="card__name">MEGA</p>
+    </a>
+
+    <a class="card" href="https://vip.ventraip.com.au/login" tabindex="0" target="_blank">
+      <i class="ri-server-fill card__icon"></i>
+      <p class="card__name">VIPcontrol</p>
+    </a>
+
+    <a class="card" href="https://lowendspirit.com/discussions" tabindex="0" target="_blank">
+      <i class="ri-cpu-fill card__icon"></i>
+      <p class="card__name">LowEndSpirit</p>
+    </a>
+
+    <a class="card" href="https://beamafilm.com/landing-guest" tabindex="0" target="_blank">
+      <i class="ri-film-fill card__icon"></i>
+      <p class="card__name">Beamafilm</p>
+    </a>
+
+    <a class="card" href="https://account.microsoft.com" tabindex="0" target="_blank">
+      <i class="ri-microsoft-fill card__icon"></i>
+      <p class="card__name">Microsoft Account</p>
+    </a>
+
+    <a class="card" href="https://www.justwatch.com/au" tabindex="0" target="_blank">
+      <i class="ri-movie-2-fill card__icon"></i>
+      <p class="card__name">JustWatch AU</p>
+    </a>
+
+    <a class="card" href="https://www.speedtest.net" tabindex="0" target="_blank">
+      <i class="ri-speed-up-fill card__icon"></i>
+      <p class="card__name">Speedtest</p>
+    </a>
+
+    <a class="card" href="https://www.paypal.com/au/signin" tabindex="0" target="_blank">
+      <i class="ri-paypal-fill card__icon"></i>
+      <p class="card__name">PayPal AU</p>
+    </a>
+
+    <a class="card" href="https://residential.launtel.net.au/login" tabindex="0" target="_blank">
+      <i class="ri-router-fill card__icon"></i>
+      <p class="card__name">Launtel</p>
+    </a>
+
+    <a class="card" href="https://webcam.io/webcams/9jBVg9" tabindex="0" target="_blank">
+      <i class="ri-camera-lens-fill card__icon"></i>
+      <p class="card__name">Droughty Point</p>
+    </a>
+
+    <a class="card" href="https://online-australia.net/au/tsm/hobart/panels" tabindex="0" target="_blank">
+      <i class="ri-roadster-fill card__icon"></i>
+      <p class="card__name">Davey/Sandy Bay Cam</p>
+    </a>
+
+    <a class="card" href="https://www.hobartcity.com.au/Things-To-Do/Kunanyi-Mt-Wellington/Kunanyi-Mt-Wellington-webcams" tabindex="0" target="_blank">
+      <img src="icons/Mountain--Streamline-Plump-Neon.png" alt="Mt Wellington" class="card__icon">
+      <p class="card__name">Mt Wellington Cams</p>
+    </a>
+
+    <a class="card" href="https://www.transport.tas.gov.au/managing_the_roads/traffic-cameras/tasman-bridge" tabindex="0" target="_blank">
+      <img src="icons/Bridge--Streamline-Plump-Neon.png" alt="Tasman Bridge" class="card__icon">
+      <p class="card__name">Tasman Bridge Cam</p>
+    </a>
+
+    <a class="card" href="https://online-australia.net/au/tsm/hobart/hobart-airport" tabindex="0" target="_blank">
+      <i class="ri-flight-takeoff-fill card__icon"></i>
+      <p class="card__name">Hobart Airport Cam</p>
+    </a>
+
+    <a class="card" href="https://client.arcadianodes.com/index.php?fuse=home&view=dashboard" tabindex="0" target="_blank">
+      <i class="ri-dashboard-2-fill card__icon"></i>
+      <p class="card__name">ArcadiaNodes</p>
+    </a>
+
+    <a class="card" href="https://members.hciltd.com.au" tabindex="0" target="_blank">
+      <i class="ri-hospital-fill card__icon"></i>
+      <p class="card__name">HCi Member</p>
+    </a>
+
+    <a class="card" href="https://tickk.app/" tabindex="0" target="_blank">
+      <i class="ri-mic-2-fill card__icon"></i>
+      <p class="card__name">tickk (online)</p>
+    </a>
+
+    <a class="card" href="https://192.168.68.76:3443/landing" tabindex="0" target="_blank">
+      <i class="ri-mic-fill card__icon"></i>
+      <p class="card__name">tickk (local)</p>
+    </a>
+
+    <a class="card" href="https://ozian.au/chess.html" tabindex="0" target="_blank">
+      <i class="ri-chess-fill card__icon"></i>
+      <p class="card__name">Interactive Chess</p>
+    </a>
+
+    <a class="card" href="https://www.facebook.com/marketplace/?ref=bookmark" tabindex="0" target="_blank">
+      <i class="ri-facebook-fill card__icon"></i>
+      <p class="card__name">FB Marketplace</p>
+    </a>
+
+    <a class="card" href="https://old.reddit.com" tabindex="0" target="_blank">
+      <i class="ri-reddit-fill card__icon"></i>
+      <p class="card__name">Reddit (old)</p>
+    </a>
+
+    <a class="card" href="https://www.reddit.com/r/InternetIsBeautiful/comments/1nsx1nc" tabindex="0" target="_blank">
+      <i class="ri-lightbulb-flash-fill card__icon"></i>
+      <p class="card__name">r/InternetIsBeautiful</p>
+    </a>
+
+    <a class="card" href="https://www.reddit.com/answers" tabindex="0" target="_blank">
+      <i class="ri-question-answer-fill card__icon"></i>
+      <p class="card__name">Reddit Answers</p>
+    </a>
+
+    <a class="card" href="https://www.podbean.com/podcast-detail/tsznz-5d3fd/Darknet-Diaries-Podcast" tabindex="0" target="_blank">
+      <i class="ri-radio-2-fill card__icon"></i>
+      <p class="card__name">Darknet Diaries</p>
+    </a>
+
+    <a class="card" href="https://www.ozbargain.com.au" tabindex="0" target="_blank">
+      <i class="ri-price-tag-3-fill card__icon"></i>
+      <p class="card__name">OzBargain</p>
+    </a>
+
+    <a class="card" href="https://www.shopback.com.au/cashback" tabindex="0" target="_blank">
+      <i class="ri-wallet-3-fill card__icon"></i>
+      <p class="card__name">ShopBack</p>
+    </a>
+
+    <a class="card" href="https://www.amazon.com.au/gp/css/homepage.html?ref_=nav_AccountFlyout_ya" tabindex="0" target="_blank">
+      <img src="icons/Amazon--Streamline-Ios-14.png"
+           alt="Amazon AU"
+           class="card__icon">
+      <p class="card__name">Amazon AU</p>
+    </a>
+
+    <a class="card" href="https://welcome.auspost.com.au/u/login" tabindex="0" target="_blank">
+      <i class="ri-mail-send-fill card__icon"></i>
+      <p class="card__name">Australia Post</p>
+    </a>
+
+    <a class="card" href="https://messages.google.com/web/conversations/1" tabindex="0" target="_blank">
+      <img src="icons/Messages-Bubble-Square-Typing-1--Streamline-Ultimate.png"
+           alt="Google Messages"
+           class="card__icon">
+      <p class="card__name">Google Messages</p>
+    </a>
+
+    <a class="card" href="https://cloudhiker.net/dashboard/sites" tabindex="0" target="_blank">
+      <i class="ri-compass-discover-fill card__icon"></i>
+      <p class="card__name">Cloudhiker</p>
+    </a>
+
+    <a class="card" href="https://www.netflix.com/au" tabindex="0" target="_blank">
+      <img src="icons/Netflix-Icon--Streamline-Svg-Logos.png"
+           alt="Netflix AU"
+           class="card__icon">
+      <p class="card__name">Netflix AU</p>
+    </a>
+
+    <a class="card" href="https://proxycheck.io" tabindex="0" target="_blank">
+      <i class="ri-shield-star-fill card__icon"></i>
+      <p class="card__name">proxycheck.io</p>
+    </a>
+
+    <a class="card" href="https://discord.com/login" tabindex="0" target="_blank">
+      <i class="ri-discord-fill card__icon"></i>
+      <p class="card__name">Discord</p>
+    </a>
+
+    <a class="card" href="https://browserleaks.com/ip" tabindex="0" target="_blank">
+      <i class="ri-fingerprint-fill card__icon"></i>
+      <p class="card__name">BrowserLeaks IP</p>
+    </a>
+
+    <a class="card" href="https://m365.cloud.microsoft/chat/?auth=1&origindomain=microsoft365" tabindex="0" target="_blank">
+      <i class="ri-chat-1-fill card__icon"></i>
+      <p class="card__name">M365 Chat</p>
+    </a>
+
+    <a class="card" href="https://app.simplelogin.io/dashboard" tabindex="0" target="_blank">
+      <i class="ri-mail-unread-fill card__icon"></i>
+      <p class="card__name">SimpleLogin</p>
+    </a>
+
+    <a class="card" href="https://mail.zoho.com.au/zm/#mail/folder/inbox" tabindex="0" target="_blank">
+      <i class="ri-inbox-unarchive-fill card__icon"></i>
+      <p class="card__name">Zoho Mail</p>
+    </a>
+
+    <a class="card" href="https://accounts.zoho.com.au/home#profile/personal" tabindex="0" target="_blank">
+      <i class="ri-user-settings-fill card__icon"></i>
+      <p class="card__name">Zoho Account</p>
+    </a>
+
+    <a class="card" href="https://www.woolworths.com.au/shop/mylists/47018956?pageNumber=1&isSpecial=false" tabindex="0" target="_blank">
+      <img src="icons/woolworths.png"
+           alt="Woolworths"
+           class="card__icon">
+      <p class="card__name">Woolworths</p>
+    </a>
+
+    <a class="card" href="https://pushover.net" tabindex="0" target="_blank">
+      <i class="ri-notification-3-fill card__icon"></i>
+      <p class="card__name">Pushover</p>
+    </a>
+
+    <a class="card" href="https://www.liquorland.com.au" tabindex="0" target="_blank">
+      <i class="ri-restaurant-2-fill card__icon"></i>
+      <p class="card__name">Liquorland</p>
+    </a>
+
+  </main>
+
+  <footer>
+    <span style="font-size: 0.75rem;">
+      Local server path: C:\wamp64\www\sp |
+      Source: <a href="https://github.com/oziau/root-startpage" target="_blank" rel="noopener noreferrer">root-startpage</a> |
+      Icons1: <a href="https://remixicon.com/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library" target="_blank" rel="noopener noreferrer">Remix Icons</a>
+      Icons2: <a href="https://www.streamlinehq.com/icons/plump-neon-style" target="_blank" rel="noopener noreferrer">Streamline Icons 128 px</a>
+    </span>
+  </footer>
+
+</body>
+</html>
