@@ -11,24 +11,70 @@
 </head>
 <body>
 <main id="cardContainer">
-<a class="card" href="http://journal/memory.php" target="_blank"><p class="card__name">Journal</p></a>
+
+<!-- Local icon override for Journal -->
+<a class="card" href="http://journal/memory.php" tabindex="0" target="_blank">
+  <i class="ri-book-3-fill card__icon"></i>
+  <p class="card__name">Journal</p>
+</a>
+
 <a class="card" href="https://www.perplexity.ai" target="_blank"><p class="card__name">Perplexity</p></a>
-<a class="card" href="https://my.octopusgroup.com.au/surveys" target="_blank"><p class="card__name">Octopus</p></a>
-<a class="card" href="https://account.pureprofile.com/?redirect=https%3A%2F%2Fmy.pureprofile.com%2Ffeed&referrer=https%3A%2F%2Fmy.pureprofile.com%2Ffeed" target="_blank"><p class="card__name">Pureprofile</p></a>
+
+<!-- Local icon override for Octopus to fix poor auto-fetched icon -->
+<a class="card" href="https://my.octopusgroup.com.au/surveys" tabindex="0" target="_blank">
+  <img src="icons/octopus.png"
+       alt="Octopus"
+       class="card__icon">
+  <p class="card__name">Octopus</p>
+</a>
+
+<!-- Local icon override for Pureprofile -->
+<a class="card" href="https://account.pureprofile.com/?redirect=https%3A%2F%2Fmy.pureprofile.com%2Ffeed&referrer=https%3A%2F%2Fmy.pureprofile.com%2Ffeed" tabindex="0" target="_blank">
+  <img src="icons/pp.png" alt="Pureprofile" class="card__icon">
+  <p class="card__name">Pureprofile</p>
+</a>
+
 <a class="card" href="https://www.notion.so/Useful-ag-Silver-Searcher-Commands-2a9e7052c3a18064a35bc2f9eb6a6605" target="_blank"><p class="card__name">Notion</p></a>
 <a class="card" href="https://calendar.google.com/calendar/u/0/r" target="_blank"><p class="card__name">Calendar</p></a>
 <a class="card" href="https://photos.google.com" target="_blank"><p class="card__name">Photos</p></a>
 <a class="card" href="https://www.google.com" target="_blank"><p class="card__name">Search</p></a>
 <a class="card" href="https://aistudio.google.com/live" target="_blank"><p class="card__name">AI Studio</p></a>
-<a class="card" href="https://script.google.com/home/projects/1YJYrk9uuy2V4HqEjwJtWInFIHmAeq0B4H_HXmx_B7NVajLri9l54ogbQ/edit?pli=1" target="_blank"><p class="card__name">Google App (archive email)</p></a>
+
+<!-- Local icon override for Google App (archive email) -->
+<a class="card" href="https://script.google.com/home/projects/1YJYrk9uuy2V4HqEjwJtWInFIHmAeq0B4H_HXmx_B7NVajLri9l54ogbQ/edit?pli=1" tabindex="0" target="_blank">
+  <img src="icons/gas.png" alt="Google Apps Script" class="card__icon">
+  <p class="card__name">Google App (archive email)</p>
+</a>
+
 <a class="card" href="https://www.google.com/interests/saved/list/allsaves?q=All+saved+items&sa=X&ved=2ahUKEwim7dW6yfSLAxXSTmwGHTU7ClEQ5oAKegQIAhAC" target="_blank"><p class="card__name">Saved</p></a>
 <a class="card" href="https://www.google.com/interests/liked" target="_blank"><p class="card__name">Liked</p></a>
 <a class="card" href="https://www.privacyguides.org/en/vpn" target="_blank"><p class="card__name">Privacy VPN Guides</p></a>
 <a class="card" href="https://forums.whirlpool.net.au/forum/?action=popular_views" target="_blank"><p class="card__name">Whirlpool Popular</p></a>
-<a class="card" href="https://192.168.68.76:32400/web/index.html#!" target="_blank"><p class="card__name">Plex</p></a>
-<a class="card" href="http://192.168.68.83:1880/#flow/e3a2a6524145c7fc" target="_blank"><p class="card__name">Node-RED</p></a>
-<a class="card" href="http://192.168.68.97" target="_blank"><p class="card__name">DHT22 Outside</p></a>
-<a class="card" href="http://192.168.68.88" target="_blank"><p class="card__name">BME280 Inside</p></a>
+
+<!-- Local icon override for Plex -->
+<a class="card" href="https://192.168.68.76:32400/web/index.html#!" tabindex="0" target="_blank">
+  <img src="icons/plex.png" alt="Plex" class="card__icon">
+  <p class="card__name">Plex</p>
+</a>
+
+<!-- Local icon override for Node-RED -->
+<a class="card" href="http://192.168.68.83:1880/#flow/e3a2a6524145c7fc" tabindex="0" target="_blank">
+  <img src="icons/nr.png" alt="Node-RED" class="card__icon">
+  <p class="card__name">Node-RED</p>
+</a>
+
+<!-- Local icon override for DHT22 Outside -->
+<a class="card" href="http://192.168.68.97" tabindex="0" target="_blank">
+  <i class="ri-temp-cold-line card__icon"></i>
+  <p class="card__name">DHT22 Outside</p>
+</a>
+
+<!-- Local icon override for BME280 Inside -->
+<a class="card" href="http://192.168.68.88" tabindex="0" target="_blank">
+  <i class="ri-temp-hot-line card__icon"></i>
+  <p class="card__name">BME280 Inside</p>
+</a>
+
 <a class="card" href="https://github.com/oziau?tab=repositories" target="_blank"><p class="card__name">Your Repos</p></a>
 <a class="card" href="https://test-ipv6.com" target="_blank"><p class="card__name">Test IPv6</p></a>
 <a class="card" href="https://login.linode.com/login" target="_blank"><p class="card__name">Linode</p></a>
@@ -38,12 +84,24 @@
 <a class="card" href="https://www.youtube.com" target="_blank"><p class="card__name">YouTube</p></a>
 <a class="card" href="https://www.youtube.com/feed/playlists" target="_blank"><p class="card__name">YT Playlists</p></a>
 <a class="card" href="https://signin.ebay.com.au" target="_blank"><p class="card__name">eBay AU</p></a>
-<a class="card" href="https://my.arlo.com/#/login" target="_blank"><p class="card__name">Arlo</p></a>
+
+<!-- Local icon override for Arlo -->
+<a class="card" href="https://my.arlo.com/#/login" tabindex="0" target="_blank">
+  <img src="icons/arlo.png" alt="Arlo" class="card__icon">
+  <p class="card__name">Arlo</p>
+</a>
+
 <a class="card" href="https://www.gumtree.com.au/t-login-form.html" target="_blank"><p class="card__name">Gumtree</p></a>
 <a class="card" href="https://my.surfshark.com/auth/login" target="_blank"><p class="card__name">Surfshark</p></a>
 <a class="card" href="https://lemmy.world/communities" target="_blank"><p class="card__name">Lemmy.World</p></a>
 <a class="card" href="https://mega.nz/login" target="_blank"><p class="card__name">MEGA</p></a>
-<a class="card" href="https://vip.ventraip.com.au/login" target="_blank"><p class="card__name">VIPcontrol</p></a>
+
+<!-- Local icon override for VIPcontrol -->
+<a class="card" href="https://vip.ventraip.com.au/login" tabindex="0" target="_blank">
+  <img src="icons/vipcontrol.png" alt="VIPcontrol" class="card__icon">
+  <p class="card__name">VIPcontrol</p>
+</a>
+
 <a class="card" href="https://lowendspirit.com/discussions" target="_blank"><p class="card__name">LowEndSpirit</p></a>
 <a class="card" href="https://beamafilm.com/landing-guest" target="_blank"><p class="card__name">Beamafilm</p></a>
 <a class="card" href="https://account.microsoft.com" target="_blank"><p class="card__name">Microsoft Account</p></a>
@@ -56,13 +114,37 @@
 <a class="card" href="https://www.hobartcity.com.au/Things-To-Do/Kunanyi-Mt-Wellington/Kunanyi-Mt-Wellington-webcams" target="_blank"><p class="card__name">Mt Wellington Cams</p></a>
 <a class="card" href="https://www.transport.tas.gov.au/managing_the_roads/traffic-cameras/tasman-bridge" target="_blank"><p class="card__name">Tasman Bridge Cam</p></a>
 <a class="card" href="https://online-australia.net/au/tsm/hobart/hobart-airport" target="_blank"><p class="card__name">Hobart Airport Cam</p></a>
-<a class="card" href="https://client.arcadianodes.com/index.php?fuse=home&view=dashboard" target="_blank"><p class="card__name">ArcadiaNodes</p></a>
+
+<!-- Local icon override for ArcadiaNodes -->
+<a class="card" href="https://client.arcadianodes.com/index.php?fuse=home&view=dashboard" tabindex="0" target="_blank">
+  <i class="ri-dashboard-2-fill card__icon"></i>
+  <p class="card__name">ArcadiaNodes</p>
+</a>
+
 <a class="card" href="https://members.hciltd.com.au" target="_blank"><p class="card__name">HCi Member</p></a>
+
+<!-- Local icon override for tickk (local) -->
+<a class="card" href="https://192.168.68.76:3443/landing" tabindex="0" target="_blank">
+  <i class="ri-mic-fill card__icon"></i>
+  <p class="card__name">tickk (local)</p>
+</a>
+
 <a class="card" href="https://tickk.app/" target="_blank"><p class="card__name">tickk (online)</p></a>
-<a class="card" href="https://192.168.68.76:3443/landing" target="_blank"><p class="card__name">tickk (local)</p></a>
-<a class="card" href="https://ozian.au/chess.html" target="_blank"><p class="card__name">Interactive Chess</p></a>
+
+<!-- Local icon override for Interactive Chess -->
+<a class="card" href="https://ozian.au/chess.html" tabindex="0" target="_blank">
+  <i class="ri-chess-fill card__icon"></i>
+  <p class="card__name">Interactive Chess</p>
+</a>
+
 <a class="card" href="https://www.facebook.com/marketplace/?ref=bookmark" target="_blank"><p class="card__name">FB Marketplace</p></a>
-<a class="card" href="https://old.reddit.com" target="_blank"><p class="card__name">Reddit (old)</p></a>
+
+<!-- Local icon override for Reddit (old) -->
+<a class="card" href="https://old.reddit.com" tabindex="0" target="_blank">
+  <i class="ri-reddit-fill card__icon"></i>
+  <p class="card__name">Reddit (old)</p>
+</a>
+
 <a class="card" href="https://www.reddit.com/r/InternetIsBeautiful/comments/1nsx1nc" target="_blank"><p class="card__name">r/InternetIsBeautiful</p></a>
 <a class="card" href="https://www.reddit.com/answers" target="_blank"><p class="card__name">Reddit Answers</p></a>
 <a class="card" href="https://www.podbean.com/podcast-detail/tsznz-5d3fd/Darknet-Diaries-Podcast" target="_blank"><p class="card__name">Darknet Diaries</p></a>
@@ -70,21 +152,71 @@
 <a class="card" href="https://www.shopback.com.au/cashback" target="_blank"><p class="card__name">ShopBack</p></a>
 <a class="card" href="https://www.amazon.com.au/gp/css/homepage.html?ref_=nav_AccountFlyout_ya" target="_blank"><p class="card__name">Amazon AU</p></a>
 <a class="card" href="https://welcome.auspost.com.au/u/login" target="_blank"><p class="card__name">Australia Post</p></a>
-<a class="card" href="https://messages.google.com/web/conversations/1" target="_blank"><p class="card__name">Google Messages</p></a>
-<a class="card" href="https://cloudhiker.net/dashboard/sites" target="_blank"><p class="card__name">Cloudhiker</p></a>
-<a class="card" href="https://www.netflix.com/au" target="_blank"><p class="card__name">Netflix AU</p></a>
-<a class="card" href="https://proxycheck.io" target="_blank"><p class="card__name">proxycheck.io</p></a>
-<a class="card" href="https://discord.com/login" target="_blank"><p class="card__name">Discord</p></a>
-<a class="card" href="https://browserleaks.com/ip" target="_blank"><p class="card__name">BrowserLeaks IP</p></a>
-<a class="card" href="https://m365.cloud.microsoft/chat/?auth=1&origindomain=microsoft365" target="_blank"><p class="card__name">M365 Chat</p></a>
+
+<!-- Local icon override for M365 Chat -->
+<a class="card" href="https://m365.cloud.microsoft/chat/?auth=1&origindomain=microsoft365" tabindex="0" target="_blank">
+  <i class="ri-chat-1-fill card__icon"></i>
+  <p class="card__name">M365 Chat</p>
+</a>
+
 <a class="card" href="https://app.simplelogin.io/dashboard" target="_blank"><p class="card__name">SimpleLogin</p></a>
-<a class="card" href="https://mail.zoho.com.au/zm/#mail/folder/inbox" target="_blank"><p class="card__name">Zoho Mail</p></a>
-<a class="card" href="https://accounts.zoho.com.au/home#profile/personal" target="_blank"><p class="card__name">Zoho Account</p></a>
+
+<!-- Local icon override for Zoho Mail -->
+<a class="card" href="https://mail.zoho.com.au/zm/#mail/folder/inbox" tabindex="0" target="_blank">
+  <i class="ri-inbox-unarchive-fill card__icon"></i>
+  <p class="card__name">Zoho Mail</p>
+</a>
+
+<!-- Local icon override for Zoho Account -->
+<a class="card" href="https://accounts.zoho.com.au/home#profile/personal" tabindex="0" target="_blank">
+  <i class="ri-user-settings-fill card__icon"></i>
+  <p class="card__name">Zoho Account</p>
+</a>
+
 <a class="card" href="https://www.woolworths.com.au/shop/mylists/47018956?pageNumber=1&isSpecial=false" target="_blank"><p class="card__name">Woolworths</p></a>
 <a class="card" href="https://pushover.net" target="_blank"><p class="card__name">Pushover</p></a>
 <a class="card" href="https://www.liquorland.com.au" target="_blank"><p class="card__name">Liquorland</p></a>
+
 </main>
-<footer><span style="font-size:.75rem">Local: C:\wamp64\www\sp | <a href="https://github.com/oziau/root-startpage" target="_blank" rel="noopener">root-startpage</a> | Auto-favicons</span></footer>
-<script>const FAV="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iMjQiIGZpbGw9IiMzMzMzMzMiLz4KPHRleHQgeD0iMjQiIHk9IjMyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiM5OTk5OTkiPiogPC90ZXh0Pgo8L3N2Zz4K";function getFavicon(u){try{return`https://www.google.com/s2/favicons?sz=128&domain=${new URL(u).hostname}`}catch{return FAV}}document.addEventListener("DOMContentLoaded",e=>document.querySelectorAll("a.card").forEach(a=>{if(a.querySelector(".card__icon"))return;const i=document.createElement("img");i.className="card__icon";i.alt="";i.referrerPolicy="no-referrer";i.loading="lazy";i.src=getFavicon(a.href);i.onerror=()=>{i.src=FAV};const l=a.querySelector(".card__name");l?a.insertBefore(i,l):a.appendChild(i)}))</script>
+<footer>
+  <span style="font-size:.75rem;">
+    Local server path: C:\wamp64\www\sp | 
+    Source: <a href="https://github.com/oziau/root-startpage" target="_blank" rel="noopener noreferrer">root-startpage</a> | 
+    Icons: Local overrides + auto high-res favicons
+  </span>
+</footer>
+
+<script>
+  const FAV = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iMjQiIGZpbGw9IiMzMzMzMzMiLz4KPHRleHQgeD0iMjQiIHk9IjMyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiM5OTk5OTkiPiogPC90ZXh0Pgo8L3N2Zz4K";
+
+  function getFavicon(u) {
+    try {
+      return `https://www.google.com/s2/favicons?sz=128&domain=${new URL(u).hostname}`;
+    } catch {
+      return FAV;
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("a.card").forEach(card => {
+      if (card.querySelector(".card__icon")) return; // Skip manual icon overrides
+
+      const href = card.href;
+      if (!href) return;
+
+      const img = document.createElement("img");
+      img.className = "card__icon";
+      img.alt = "";
+      img.referrerPolicy = "no-referrer";
+      img.loading = "lazy";
+      img.src = getFavicon(href);
+      img.onerror = () => { img.src = FAV; };
+
+      const label = card.querySelector(".card__name");
+      if (label) card.insertBefore(img, label);
+      else card.appendChild(img);
+    });
+  });
+</script>
 </body>
 </html>
